@@ -1,12 +1,12 @@
 set(TEST_NAME sample_test_catch2)
 include(FetchContent)
-set(SOURCE_FILES main.cpp sample_catch.cpp)
+set(SOURCE_FILES main.cpp sample_catch.cpp )
 
 # catch2
 FetchContent_Declare(
         Catch2
         GIT_REPOSITORY https://github.com/catchorg/Catch2.git
-        GIT_TAG        v2.13.10)
+        GIT_TAG        v2.13.9)
 FetchContent_MakeAvailable(Catch2)
 
 # approvals
